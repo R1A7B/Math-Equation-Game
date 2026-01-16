@@ -1,0 +1,53 @@
+> ./game.out sample_equation2.txt --challenge_mode
+Let's play a guessing game!
+The secret is an equation with 6 characters.
+your guess: 11-8=3
+
++-----------------------------------+
+|.....                   .....      |
+|.   .                   .   .      |
+|. 1 .   1     -     8   . = .   3  |
+|.   .                   .   .      |
+|.....                   .....      |
++-----------------------------------+
+
+your guess: 7*3=21
+ERROR: character '3' appears at most 0 time(s)
+your guess: 6*4=24
+ERROR: character '1' appears at least 1 time(s)
+your guess: 7*2=14
+
++-----------------------------------+
+|                  ***** ***** *****|
+|                  *   * *   * *   *|
+|  7     *     2   * = * * 1 * * 4 *|
+|                  *   * *   * *   *|
+|                  ***** ***** *****|
++-----------------------------------+
+
+your guess: 4+9=13
+ERROR: character [5] of the guess should be '4'
+ERROR: character [5] of the guess cannot be '3'
+ERROR: character '3' appears at most 0 time(s)
+your guess: 5+9=14
+
++-----------------------------------+
+|..... ***** ..... ***** ***** *****|
+|.   . *   * .   . *   * *   * *   *|
+|. 5 . * + * . 9 . * = * * 1 * * 4 *|
+|.   . *   * .   . *   * *   * *   *|
+|..... ***** ..... ***** ***** *****|
++-----------------------------------+
+
+your guess: 9+5=14
+
++-----------------------------------+
+|***** ***** ***** ***** ***** *****|
+|*   * *   * *   * *   * *   * *   *|
+|* 9 * * + * * 5 * * = * * 1 * * 4 *|
+|*   * *   * *   * *   * *   * *   *|
+|***** ***** ***** ***** ***** *****|
++-----------------------------------+
+
+CONGRATULATIONS!
+You solved the puzzle after making 4 guesses!
